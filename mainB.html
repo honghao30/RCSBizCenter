@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCS Biz Center</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+<div class="wrap mainB">
+    <header class="header">
+        <div class="inner">
+            <div class="default"><img src="images/typeA/header.png" alt=""></div>
+            <div class="hover"><img src="images/typeA/header_hover.png" alt=""></div>
+        </div>
+    </header>
+    <div class="contents">
+        <section class="main-visual section">
+            <div class="inner">
+                <div class="logo-text" id="logoText">
+                    <img src="images/typeB/main_logo_text.png" alt="">
+                </div>
+                <div class="text" id="visualText">
+                    <img src="images/typeB/main_visual_text.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="main2 section">
+            <div class="inner">
+                <div class="text">
+                    <img src="images/typeA/main2_text.png" alt="">
+                </div>
+                <div class="box-wrap">
+                    <div class="box-item box1 scroll-enter">
+                        <div class="fadeinUp">
+                            <span class="emoji1"><img src="images/typeA/emoji1.gif" alt=""></span>
+                            <img src="images/typeA/box1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box-item box3 scroll-enter">
+                        <div class="fadeinUp">
+                            <span class="emoji3"><img src="images/typeA/emoji3.gif" alt=""></span>
+                            <img src="images/typeA/box3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="box-item box2 scroll-enter">
+                        <div class="fadeinUp">
+                            <span class="emoji2"><img src="images/typeA/emoji2.gif" alt=""></span>
+                            <img src="images/typeA/box2.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="box-item box4  scroll-enter">
+                        <div class="fadeinUp">
+                            <span class="emoji4"><img src="images/typeA/emoji4.gif" alt=""></span>
+                            <img src="images/typeA/box4.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="main3 section" id="changeBgTarget">
+            <div class="text">
+                <img src="images/typeB/main3_text.svg" alt="" class="ligh-bg">
+                <img src="images/typeB/main3_text_bg.svg" alt="" class="dark-bg" >
+                <span class="gradient-bg"></span>
+            </div>
+            <div class="inner-text">
+                <img src="images/typeB/main3_inner_text.png" alt="">
+           </div>
+           <div class="scorll-slide">
+                <img src="images/typeB/main3_slide_img.png" alt="" class="slide-img">
+           </div>
+        </section>
+        <section class="main4 section" id="phoneAniTarget">
+            <div class="inner">
+                <img src="images/typeB/main4_text.png" alt="">
+            </div>
+            <div class="swiper mySwiper scroll-enter">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="case">
+                            <img src="images/typeB/main4_case.png" alt="">
+                            <div class="phone">
+                                <span class="phone1">
+                                    <img src="images/typeB/phone1.png" alt="">
+                                </span>
+                                <span class="phone2">
+                                    <img src="images/typeB/phone2.png" alt="">
+                                </span>
+                                <span class="phone3">
+                                    <img src="images/typeB/phone3.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="case">
+                            <img src="images/typeB/main4_case2.png" alt="">
+                            <div class="phone">
+                                <span class="phone1">
+                                    <img src="images/typeB/phone4.png" alt="">
+                                </span>
+                                <span class="phone2">
+                                    <img src="images/typeB/phone5.png" alt="">
+                                </span>
+                                <span class="phone3">
+                                    <img src="images/typeB/phone6.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="case">
+                            <img src="images/typeB/main4_case3.png" alt="">
+                            <div class="phone">
+                                <span class="phone1">
+                                    <img src="images/typeB/phone7.png" alt="">
+                                </span>
+                                <span class="phone2">
+                                    <img src="images/typeB/phone8.png" alt="">
+                                </span>
+                                <span class="phone3">
+                                    <img src="images/typeB/phone9.png" alt="">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main5 section">
+            <div class="inner">
+                <img src="images/typeB/main5_text.png" alt="">
+                <div onclick="guideBtnEvent(this)">
+                    <div class="guide-list" id="guide1">
+                        <div class="item1">
+                            <span class="emoji5">
+                                <img src="images/typeB/emoji6.gif" alt="">
+                            </span>
+                            <img src="images/typeB/guide1.png" alt="">
+                        </div>
+                        <div class="item2">
+                            <span class="emoji6">
+                                <img src="images/typeB/emoji7.gif" alt="">
+                            </span>
+                            <img src="images/typeB/guide2.png" alt="">
+                        </div>
+                        <div class="item3">
+                            <span class="emoji7">
+                                <img src="images/typeB/emoji8.gif" alt="">
+                            </span>
+                            <img src="images/typeB/guide3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="guide-list"  id="guide2">
+                        <div class="item1">
+                            <span class="emoji8">
+                                <img src="images/typeB/emoji9.gif" alt="">
+                            </span>
+                            <img src="images/typeB/guide1.png" alt="">
+                        </div>
+                        <div class="item2">
+                            <span class="emoji9">
+                                <img src="images/typeB/emoji10.gif" alt="">
+                            </span>
+                            <img src="images/typeB/guide2.png" alt="">
+                        </div>
+                        <div class="item3">
+                            <span class="emoji10">
+                                <img src="images/typeB/emoji11.gif" alt="">
+                            </span>
+                            <img src="images/typeB/guide3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="copyright">
+            <div class="marquee" data-text="Copyright ⓒ 2023 RCS Biz Center. All rights reserved"><span class="text">Copyright ⓒ 2023 RCS Biz Center. All rights reserved</span></div>
+        </div>
+        <div class="fixed-cs" onclick="csBtnEvent()">
+            <div class="layer">
+                <img src="images/typeA/fixed_cs_layer.png" alt="">
+            </div>
+            <a role="button" class="btn" id="csBtn"></a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="inner">
+            <img src="images/typeB/footer.png" alt="">
+        </div>
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    
+    var swiper = new Swiper(".mySwiper", {
+        effect : 'fade',
+        autoplay : true
+    });
+    gsap.timeline().to("#logoText", {scale: 0.18, yPercent: 45, backgroundColor:'transparent',duration: 1.2,ease: "power1.in" }, 1)
+    gsap.timeline().to("#visualText", { opacity: 1, duration: 0.8, ease: "power1.in" }, 1.5)
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: '.scorll-slide',
+            start: "top 50%",
+            end: "bottom top",
+            scrub: 3
+        }
+    })
+    .to(".slide-img", {xPercent: -20, ease:'power1.in'}, 0)
+
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: '#changeBgTarget',
+            start: "top 100%",
+            end: "top 70%",
+            scrub: true
+        }
+    })
+    .fromTo(".mainB", {backgroundColor: '#fff'},  {duration: 2, backgroundColor: '#181818', ease:'none'}, 0)
+    
+    gsap.timeline({
+        scrollTrigger: {
+            trigger: '#changeBgTarget',
+            start: "bottom 80%",
+            end: "bottom 50%",
+            scrub: true
+        }
+    })
+    .to(".mainB", {duration: 2, backgroundColor: '#fff', ease:'none'}, 0)
+
+
+    
+
+</script>
+<script src="js/common.js"></script>
+</body>
+</html>
